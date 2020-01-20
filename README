@@ -1,0 +1,4 @@
+On doit réaliser un logiciel utilisant l'algorithme de mariage stable pour gérer les candidatures des étudiants dans des écoles
+L'utilisateur doit fournir un fichier contenant les différentes informations
+L'utilisataur doit aussi choisir qui a l'avantage (école ou éléve)
+L'utilisateur doit pouvoir voir le résultat (via affichage écran et/ou via fichier)
