@@ -13,28 +13,27 @@ def csvprocessing (filename):
         donneeetudiant = 0
         for row in csv_reader:#pour chaque ligne du fichier csv:
             if len(row) == 0:
-                donneeetudiant += 1;
+                donneeetudiant += 1
             if donneeetudiant == 0 :
                 for k in range (1, len(row)): #pour chaque couple ecole, note : l'ajouter au dictionnaire voeux
                     nomEcole = str(row[k].split(';')[0])
                     note = int(str(row[k].split(';')[1][1]))
-
                     voeux[str(nomEcole[2:])] = note
                     eleves[str(row[0])] = voeux# pour chaque etudiant, ajout a csvTab le couple {etudiant: {voeux}}
+                voeux = {}
             elif donneeetudiant == 1 :
                 for k in range (1, len(row)):
                     nomEcole = str(row[k].split(';')[0])
                     note = int(str(row[k].split(';')[1][1]))
-
                     voeux[str(nomEcole[2:])] = note
                     ecoles[str(row[0])] = voeux
+                voeux = {}
             else:
-
                 if (len(row)) > 0 :
-
                     capacites[str(row[0])] = int(str(row[1]))
 
         print(mariageAlgorithm.mariageStableEcoles(eleves,ecoles,capacites))
+        print(mariageAlgorithm.mariageStableEleves(eleves,ecoles,capacites))
 
 
 
