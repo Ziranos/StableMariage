@@ -61,20 +61,3 @@ def mariageStableEcoles (eleves, ecoles, nbEleves) :
                             if ecole != "no key" :
                                 balcons[ecole].append(element)
     return balcons      
-
-
-eleves = {"Mathieu" : {"ENSEEIHT":1,"ENSIBS":3,"ENSIMAG":2},
-         "Ignace": {"ENSEEIHT":1,"ENSIBS":2,"ENSIMAG":3},
-         "Thomas": {"ENSEEIHT":3,"ENSIBS":2,"ENSIMAG":1},
-         "Tom":  {"ENSEEIHT":1,"ENSIBS":2,"ENSIMAG":3}}
-
-ecoles = {"ENSEEIHT":{"Ignace":1,"Mathieu":2,"Thomas":3, "Tom":4},
-          "ENSIMAG": {"Ignace":4,"Mathieu":3,"Thomas":2, "Tom":1},
-          "ENSIBS":  {"Ignace":1,"Mathieu":3,"Thomas":2, "Tom":4}}
-
-nbEleves = {"ENSEEIHT": 2, "ENSIMAG" : 1, "ENSIBS" : 3}
-
-print("Eleves favorisés :")
-print(mariageStableEleves(eleves, ecoles, nbEleves))
-print("Ecoles favorisés :")
-print(mariageStableEcoles(eleves, ecoles, nbEleves))

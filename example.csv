@@ -1,2 +1,10 @@
-Mathieu, (ENSEEIHT; 1), (ENSIBS; 3), (ENSIMAG; 2)
 Ignace, (ENSEEIHT; 1), (ENSIBS; 2), (ENSIMAG; 3)
+Mathieu, (ENSEEIHT; 1), (ENSIBS; 3), (ENSIMAG; 2)
+
+ENSEEIHT, (Ignace; 1), (Mathieu; 2)
+ENSIMAG, (Ignace; 2), (Mathieu; 1)
+ENSIBS, (Ignace; 1), (Mathieu; 2)
+
+ENSEEIHT, 2
+ENSIBS, 3
+ENSIMAG, 1
