@@ -32,9 +32,22 @@ def csvprocessing (filename):
                 if (len(row)) > 0 :
                     capacites[str(row[0])] = int(str(row[1]))
 
+        print("Les écoles sont courtisées par les élèves :")
         print(mariageAlgorithm.mariageStableEcoles(eleves,ecoles,capacites))
+        print()
+        print("Les élèves sont courtisées par les écoles :")
         print(mariageAlgorithm.mariageStableEleves(eleves,ecoles,capacites))
+        print()
 
 
+print("Exemple Simple :\n")
+csvprocessing('exampleSimple.csv')
 
-csvprocessing('example.csv')
+print("Exemple Complet 1 :\n")
+csvprocessing('exampleComplet1.csv')
+
+print("Exemple Complet 2 :\n")
+csvprocessing('exampleComplet2.csv')
+
+print("Exemple Complet 3 :\n")
+csvprocessing('exampleComplet3.csv')

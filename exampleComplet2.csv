@@ -1,0 +1,15 @@
+Ignace, (ENSEEIHT; 2), (ENSIBS; 4), (ENSIMAG; 3), (CESI; 1)
+Mathieu, (ENSEEIHT; 3), (ENSIBS; 1), (ENSIMAG; 2), (CESI; 4)
+Victor, (ENSEEIHT; 4), (ENSIBS; 2), (ENSIMAG; 1), (CESI; 3)
+Max, (ENSEEIHT; 1), (ENSIBS; 3), (ENSIMAG; 2), (CESI; 4)
+Valentin, (ENSEEIHT; 3), (ENSIBS; 1), (ENSIMAG; 4), (CESI; 2)
+
+ENSEEIHT, (Ignace; 1), (Mathieu; 2), (Victor; 3), (Max; 4), (Valentin; 5)
+ENSIMAG, (Ignace; 5), (Mathieu; 4), (Victor; 3), (Max; 2), (Valentin; 1)
+ENSIBS, (Ignace; 3), (Mathieu; 5), (Victor; 1), (Max; 4), (Valentin; 2)
+CESI, (Ignace; 2), (Mathieu; 3), (Victor; 5), (Max; 1), (Valentin; 4)
+
+ENSEEIHT, 2
+ENSIBS, 3
+ENSIMAG, 1
+CESI, 4
